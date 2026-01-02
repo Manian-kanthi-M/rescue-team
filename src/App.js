@@ -7,7 +7,7 @@ function App() {
   const [user, setUser] = useState(null);
 
   return (
-    <Router>
+    <Router basename='/rescue-team'>
       <Routes>
         <Route
           path="/"
